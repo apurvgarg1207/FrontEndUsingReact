@@ -1,0 +1,45 @@
+// $primary : #354e7e;
+
+// @import '~/bootstrap/scss/functions';
+// @import '~/bootstrap/scss/variables';
+
+// $custom-theme-colors: (
+//     "coral" : #d4dded,
+//     "darkcoral" : #2f0f27   ,
+//     "altlight":#f9fafc,
+//     "altdark":#354e7e,
+//     "themedark":#3f5e97,
+//     "themelight":#f1e1ed, 
+//     "themeBase":#f9fafc,
+//     "themeBg":#d4dded,
+    
+// );
+
+// $theme-colors : map-merge($custom-theme-colors, $theme-colors);
+
+
+// @import '~/bootstrap/scss/bootstrap';
+// // @import '../node_modules/bootstrap/scss/bootstrap';
+
+$primary : #354e7e;
+
+@import '~/bootstrap/scss/functions';
+@import '~/bootstrap/scss/variables';
+
+$custom-theme-colors: (
+    "coral" : #d4dded,
+    "darkcoral" : #2f0f27   ,
+    "altlight":#f9fafc,
+    "altdark":#354e7e,
+    "themedark":#f9fafc,
+    "themelight":#3f5e97, 
+    "themeBase":#eef2fa,
+    "themeBg":#d4dded,
+    
+);
+
+$theme-colors : map-merge($custom-theme-colors, $theme-colors);
+
+
+@import '~/bootstrap/scss/bootstrap';
+// @import '../node_modules/bootstrap/scss/bootstrap';

@@ -1,0 +1,21 @@
+$primary: #ff00007b;
+$secondary:     #ff0000;
+$success:       #ff0000;
+$info:          #ff0000;
+$warning:      #ff0000;
+$danger:       #ff0000;
+$light:         #ff0000;
+$dark:          #ff0000;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors:(
+    "altlight":#e4c9b4,
+    "altdark":#d6915d
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
